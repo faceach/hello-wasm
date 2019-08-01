@@ -1600,7 +1600,7 @@ function isDataURI(filename) {
 
 
 
-var wasmBinaryFile = 'hello_world.wasm';
+var wasmBinaryFile = 'addInteger.wasm';
 if (!isDataURI(wasmBinaryFile)) {
   wasmBinaryFile = locateFile(wasmBinaryFile);
 }

@@ -3,7 +3,7 @@
  */
 #include <stdio.h>
 
-int add_integer()
+int main()
 {
     int integer1; // Declare a variable named integer1 of the type integer
     int integer2; // Declare a variable named integer2 of the type integer

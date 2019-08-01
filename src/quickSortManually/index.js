@@ -12,6 +12,8 @@ __ATPOSTRUN__.push(function () {
         strInputArray = strInputArray.replace(/\s+/g, "");
         var array = strInputArray.split(',');
 
+        console.log('Input Array', array);
+
         var arrayPointer = Module.ccall(
             'quickSort', // name of C function 
             'number', // return type
@@ -26,6 +28,7 @@ __ATPOSTRUN__.push(function () {
         }
 
         console.log('=================');
-        console.log(clearArrResult);
+        console.log(arrayPointer);
+        console.log('Sorted Array', clearArrResult);
     });
 });
